@@ -45,6 +45,7 @@
     max-width: 100%;
     background: #ECEFF1;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .Contenidor-video
@@ -76,8 +77,10 @@
 {background-color: white;}
 
 .Galeria
-{   justify-content: flex-start; 
-    height: auto;
+{ 
+  justify-content: center;
+  background: white;
+  z-index:5;
 }
 
 .Parallax
@@ -90,12 +93,16 @@
 .imatge3,
 .imatge4
 {
-    width: 25%;
-    height: 250px;
-    margin: 0;
-    padding: 0;
-    font-size: .6em;
+  width:24%;
+  background:#fff;
+  float:left;
+  margin:10px auto;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:15px;
+  box-shadow:0 1px 2px 0 rgba(0,0,0,0.22);
 }
+.imatge1{height: 420px;}
 .imatge2
 {
     width: 60%;
@@ -143,7 +150,7 @@
 {
     width: 50%;
     height: 50%;
-    background: ##ECEFF1;
+    background: #ECEFF1;
 }
 .contingut_text
 {
@@ -169,7 +176,7 @@
 .splah_2
 {background-image: url("../Imatges/cabecera.jpg");}
 
-.splah_3{background-image: url("../Imatges/SplashArt/ea.jpg"); background-attachment: fixed;}
+.splah_3{background-image: url("../Imatges/SplashArt/ea.jpg");}
 
 .Contenidor-video:hover
 {
@@ -190,3 +197,7 @@ div > div.nomsImatge:hover
     transition: all ease 0.9s;
 }
 
+#paralax
+{
+    position: relative;
+}

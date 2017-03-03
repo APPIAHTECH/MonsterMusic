@@ -19,7 +19,7 @@ div.anunci > ul li{
 div.anunci > ul {
  list-style: none;
  padding-left: 10px;
- animation-name: canvia;
+ animation-name: canvia , cambiarColor;
  animation-duration: 6s;
  animation-iteration-count: infinite;
  animation-fill-mode: backwards;
@@ -50,10 +50,7 @@ div.info-test > span
 }
 
 p.text
-{
-
-    animation: moute 5s ease backwards infinite;
-}
+{}
 
 @keyframes canvia{
  0%{
@@ -86,22 +83,28 @@ p.text
 }
 
 
-@keyframes moute{
- 0%{
+@keyframes cambiarColor{
+  0%{
+   color: black;
  }
  20%{
+
  }
  25%{
  }
  50%{
+   color: #E91E63;
  }
  55%{
  }
  80%{
+   color: #2196F3;
  }
  85%{
+   color: #00BCD4;
  }
  95%{
+   color: #006064;
  }
  100%{
  }
