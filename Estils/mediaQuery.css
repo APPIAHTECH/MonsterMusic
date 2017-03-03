@@ -1,0 +1,138 @@
+@media screen and (max-width: 1024px){ /*Capçelera*/
+
+      header nav.Navegador
+      {
+          width: 0%;
+          transition: all ease-in-out 0.5s;
+          display: none;
+      }
+
+      header nav.Navegador ul
+      {
+        display: none;
+      }
+
+      header {
+        height: auto;
+        position: fixed;
+        z-index: 500;
+      }
+    
+
+      header div.contenidor_hamb,
+      header div.titulRes,
+      header div.menu_hamb_fixat
+      {
+        width: 100%;
+        height: 40%;
+        background: #009688;
+        display: block;
+      }
+    
+      header div.menu_hamb_fixat
+      {
+          display: block;
+          width: 100%;
+          position: fixed;
+          z-index: 200;
+          height: auto;
+          position: absolute;
+          box-shadow: 0px 3px 0px 0px #00695C;
+      }
+      header div.titulRes
+      {
+        background: #00ACC1;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: 30%;
+      }
+
+     header div.bar_buscar
+     {
+        display: none;
+     }
+      header div.menu_hamburgessa
+      {
+          width: 50px;
+          opacity: 1;
+          margin: 0 auto;
+          top: 10px;
+          transition: all ease-in-out 0.5s;
+      }
+      header nav div#buscar_gran
+      {
+        display: none;
+      }
+      .centrar
+      {
+        text-align: center;
+        font-size: 1.5em;
+        color: black;
+        letter-spacing: 5px;
+        text-transform: capitalize;
+      }
+}
+
+@media screen and (max-width: 1024px){
+
+  section.bg
+  {
+    display: none;
+    background-image: none;
+  }
+    
+  section.Loop
+    {
+        display:inline-block; 
+        margin: 170px 0px 20px 0px; 
+        height: 500px;
+        width: 95%;
+    }
+  section.Flp{height: auto;}
+  .contenidor-tarjeta
+    {
+        height:300px;
+        width: 50%;
+        perspective: 700;
+        margin: 0px;
+        top: 0;
+
+    }
+    .caraB{ padding: 0px;}
+    .tarja{margin: 0px;}
+    .info{font-size: .3em;}
+    .titol , .desc{ font-size: 2em;}
+    .like , .descargar , .perfil {display: none;}
+    .btn-play{position: relative; top: 29px; width: 100%;}
+    
+    div.ly_text div.contingut_text{font-size: .7em; padding: 5px; width: auto;}
+    
+    .descripcio{font-size: 15px; margin: 0; width: 80%; position: relative; left: -5px;}
+    div.anunci{text-align: left; position: relative; left: -50px;}
+}
+
+
+@media screen and (max-width: 1024px){
+    
+  div.footer_info
+  {
+      width: 20%;
+      height: 75%;
+      padding: 0px;
+      margin: 0 auto;
+      font-size: .7em;
+  }
+    
+ div.Footer
+  {
+      font-size: .6em;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+    div.imatge1{
+        font-size: .3em;
+    }
+}

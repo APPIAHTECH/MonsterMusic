@@ -1,0 +1,44 @@
+.baner{
+ width: 700px;
+ height: 300px;
+ border: 3px solid red;
+ margin:auto;
+
+ background-image: url(../../Imatges/Zed_Splash_10.jpg);
+ background-size: 100% 100%;
+
+ animation-name: banner;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes banner{
+ 0%,20%{
+   background-image: url(../../Imatges/cabecera.jpg);
+   opacity: 1;
+ }
+ 21%,24%{
+   opacity: 0.1;
+ }
+ 25%,45%{
+   background-image: url(../../Imatges/logo.png);
+   opacity:1;
+ }
+ 46%,49%{
+   opacity:0.1;
+ }
+ 50%,70%{
+   background-image: url(../../Imatges/Lucian_Poro.jpg);
+   opacity: 1;
+ }
+ 71%,74%{
+   opacity: 0.1;
+ }
+ 75%,95%{
+   background-image: url(../../Imatges/MonsterKrodmusic.png);
+   opacity: 1;
+ }
+ 96%,100%{
+   opacity: 0.1;
+ }
+}

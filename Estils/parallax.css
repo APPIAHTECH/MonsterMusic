@@ -1,0 +1,58 @@
+/*
+#home{
+ background: url(../Imatges/cabecera.jpg) 50% 0 no-repeat fixed;
+}
+#seccio2{
+background: url(../Imatges/Lucian_Poro.jpg) 50% 0 no-repeat fixed;
+}
+#seccio3{
+ background: url(../Imatges/MonsterKrodmusic.png) 50% 0 no-repeat fixed;
+}
+
+#home, #seccio2, #seccio3{
+ margin:0px auto;
+ min-height: 700px;
+ max-width: 1920px;
+ position:relative;
+ width: 100%;
+ background-size: cover;
+}
+
+#seccio2, #seccio3{
+ box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+article{
+ display: block;
+ color:white;
+ font-family:sans-serif;
+ padding: 100px;
+}
+
+.container{
+ display:block;
+ background-color: rgba(160,0,20,0.8);
+ border-radius: 10px;
+ height: 360px;
+ width: 400px;
+ padding: 15px;
+ box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.logo{
+ display: block;
+ background: url(../Imatges/logo.png) no-repeat;
+ height: 180px;
+ width: 180px;
+ border-radius: 15px;
+ box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h2{
+ margin:10px auto;
+ text-align: center;
+}
+.escrit{
+ text-align: justify;
+ font-size: 1.25em;
+}*/

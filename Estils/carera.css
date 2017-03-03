@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1 , p{
+  text-align: center;
+  opacity: 0.5;
+
+}
+.contingut{
+  width: 1200px;
+  height: 800px;
+  box-sizing: border-box;
+  border: solid 2px black;
+  margin: 50px auto;
+}
+
+.cell ,.caretera{
+  width: 100%;
+  height: 400px;
+  background-color: lightblue;
+}
+.caretera{
+  background-color: gray;
+}
+.lineas{
+  width: 150px;
+  height: 20px;
+  display: inline-block;
+  background-color: white;
+  box-sizing: border-box;
+  border: groove 2px black;
+  margin-top: 200px;
+  margin-left: 70px;
+}
+.nuvol ,.nuvolInvers{
+  width: 150px;
+  height: 150px;
+  color: white;
+  animation: nuvolE 50s infinite;
+}
+.nuvolInvers{
+  animation: nuvolIn 50s infinite;
+  position: absolute;
+  top: 200px;
+}
+
+.goku , .mario{
+  width: 150px;
+  height: 150px;
+  color: white;
+}
+.goku{
+  position: absolute;
+  top: 510px;
+  animation: gokuMove 3s infinite both;
+}
+.mario{
+  position: absolute;
+  left: 38px;
+  top: 750px;
+  animation: marioMove 5s infinite both;
+}
+
+/*Animacion*/
+@keyframes gokuMove {
+  from{
+    transform: translateX(0px);
+  }
+    to{
+      transform: translateX(1500px);
+    }
+}
+
+@keyframes marioMove {
+  from{
+    transform: translateX(0px);
+  }
+    to{
+      transform: translateX(1500px);
+    }
+}
+
+@keyframes nuvolE {
+  from{
+    transform: translateX(0px);
+  }
+    to{
+      transform: translateX(700px);
+    }
+}
+
+@keyframes nuvolIn {
+  from{
+    transform: translateX(700px);
+  }
+    to{
+      transform: translateX(0px);
+    }
+}

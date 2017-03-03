@@ -1,0 +1,38 @@
+.social-menu{
+
+    position: fixed;
+    left: -40px;
+    top: 200px;
+    z-index: 2000;
+    visibility: hidden;
+}
+
+.social-menu ul{
+   list-style: none;
+}
+.social-menu ul li a{
+
+    display: inline-block;
+    color: white;
+    transition: all 0.5s;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #FF5722;
+}
+
+.social-menu ul li a:hover{
+    padding: 10px 30px;
+    color: rgba(0,0,0,0.8);
+    font-size: 2em;
+    padding-left: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*Cambiar color al fons dels icones*/
+.social-menu ul li .icon-vimeo{
+  background: #2196F3;
+}
+.social-menu ul li .icon-twitch{
+  background: #673AB7;
+}

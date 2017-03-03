@@ -1,0 +1,13 @@
+.animacio{
+  width: 20px;
+  height: 150px;
+  background: url(../Imatges/keyframe_img/mario.png) left center no-repeat;
+  animation: play 0.9s steps(20) infinite;
+    
+}
+
+@keyframes play {
+  100% {
+    background-position: -1900px;
+  }
+}
